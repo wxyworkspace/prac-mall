@@ -27,8 +27,9 @@
       <module name="mall-coupon" options="-parameters" />
       <module name="mall-member" options="-parameters" />
       <module name="mall-order" options="-parameters" />
+      <module name="mall-producet" options="-parameters" />
       <module name="mall-ware" options="-parameters" />
-      <module name="prac-mall" options="-parameters" />
+      <module name="prac-mall" options="" />
     </option>
   </component>
 </project>

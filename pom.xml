@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.prac.mall</groupId>
-	<artifactId>mall-producet</artifactId>
+	<artifactId>prac-mall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>prac-mall</name>
-	<description>全栈商城项目</description>
+	<description>全栈商城项目-聚合工程</description>
 
 	<packaging>pom</packaging>
 
