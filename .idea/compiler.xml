@@ -2,19 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mall-coupon" />
+        <module name="mall-ware" />
         <module name="renren-fast" />
         <module name="mall-order" />
         <module name="mall-producet" />
         <module name="mall-member" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
+    <bytecodeTargetLevel target="8">
       <module name="mall-coupon" target="1.8" />
       <module name="mall-member" target="1.8" />
       <module name="mall-order" target="1.8" />
@@ -26,7 +27,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
       <module name="mall-coupon" options="-parameters" />
       <module name="mall-member" options="-parameters" />
       <module name="mall-order" options="-parameters" />
