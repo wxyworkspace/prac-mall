@@ -18,7 +18,7 @@ class MallProductApplicationTests {
 	@Test
 	void contextLoads() {
 		BrandEntity entity = new BrandEntity();
-		entity.setName("xiaomi");
+		entity.setName("华为");
 		brandService.save(entity);
 	}
 
