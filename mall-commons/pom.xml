@@ -60,5 +60,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- nacos控制中心依赖 -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2021.1</version>
+        </dependency>
     </dependencies>
 </project>

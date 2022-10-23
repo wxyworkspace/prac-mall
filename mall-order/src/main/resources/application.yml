@@ -12,20 +12,20 @@ spring:
     #alibaba:
      # seata:
       #  tx-service-group: mall-order-group
-    sentinel:
-      transport:
-        port: 8719
-        client-ip: localhost
-        dashboard: localhost:8080
+#    sentinel:
+#      transport:
+#        port: 8719
+#        client-ip: localhost
+#        dashboard: localhost:8080
   application:
     name: mall-order
-  session:
-    store-type: redis
-    redis:
-      namespace: spring:session
-  redis:
-    host: 43.140.205.23
-    port: 6379
+#  session:
+#    store-type: redis
+#    redis:
+#      namespace: spring:session
+#  redis:
+#    host: 43.140.205.23
+#    port: 6379
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
@@ -44,15 +44,15 @@ user:
   age: 18
 
 # RocketMQ的相关信息
-rocketmq:
-  name-server: 43.140.205.23:9876
-  producer:
-    group: order-producer
-  consumer:
-    group: order-consumer
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+#rocketmq:
+#  name-server: 43.140.205.23:9876
+#  producer:
+#    group: order-producer
+#  consumer:
+#    group: order-consumer
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
 
