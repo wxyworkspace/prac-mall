@@ -12,9 +12,9 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * basePackages 制定Fegin接口的路径
  */
 
-@EnableFeignClients(basePackages = "com.msb.mall.order.fegin")
+@EnableFeignClients(basePackages = "com.prac.mall.order.fegin")
 @EnableDiscoveryClient
-@SpringBootApplication()
+@SpringBootApplication
 @MapperScan("com.prac.mall.order.dao")
 public class MallOrderApplication {
 
