@@ -18,6 +18,7 @@
 		<spring-cloud.version>2020.0.1</spring-cloud.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>com.prac.mall</groupId>
 			<artifactId>mall-commons</artifactId>
@@ -42,6 +43,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
